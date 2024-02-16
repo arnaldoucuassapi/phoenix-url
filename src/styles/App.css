@@ -1,0 +1,88 @@
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  height: 100vh;
+  z-index: 99;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+input {
+  width: 400px;
+  font-weight: 500;
+}
+
+form button {
+  background-color: #6bff4d;
+  color: #0f0f0f;
+}
+
+.effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(107, 255, 77);
+  filter: opacity(.1);
+  transform: rotate(45deg);
+  z-index: 9;
+}
+
+.effect.e2 {
+  right: 0;
+  bottom: 0;
+  filter: blur(3rem) opacity(.6);
+}
+
+.url {
+  text-decoration: underline;
+  color: #f2f2f2;
+}
+
+p {
+  color: #a0a0a0;
+}
+
+a {
+  color: rgb(107, 255, 77) !important;
+}
+
+button[type="submit"] {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  form {
+    background-color: #0f0f0f;
+  }
+}
+
+.loader {
+  width: 20px;
+  height: 20px;
+  border: 3px solid transparent;
+  border-top-color: #0f0f0f;
+  border-radius: 25px;
+  animation: load linear infinite .5s forwards;
+}
+
+@keyframes load {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
