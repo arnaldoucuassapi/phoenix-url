@@ -53,13 +53,22 @@ p {
 }
 
 a {
-  color: rgb(107, 255, 77) !important;
+  color: #6bff4d !important;
+}
+
+button:disabled {
+  opacity: .7;
+  cursor: not-allowed;
 }
 
 button[type="submit"] {
   display: flex;
   align-items: center;
   gap: 4px;
+}
+
+button:hover {
+  opacity: .8;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -51,7 +51,10 @@ function App() {
             placeholder="Paste here your url..." 
           />
 
-          <button type="submit">
+          <button 
+            type="submit"
+            disabled={loading}
+          >
             {loading ? <Loader /> : <>Run <ArrowRightCircle size={18} /></>}
           </button>
         </form>
