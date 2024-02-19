@@ -28,7 +28,15 @@
         "resizable": false,
         "title": "Phoenix Url",
         "width": 700,
-        "height": 450
+        "height": 450,
+        "visible": false
+      },
+      {
+        "width": 700,
+        "height": 450,
+        "decorations": false,
+        "url": "splashscreen.html",
+        "label": "splashscreen"
       }
     ],
     "security": {

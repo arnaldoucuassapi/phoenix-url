@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.splash-container {
+  text-align: center;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader img {
+  width: 80px; /* Ajuste o tamanho do ícone Phoenix conforme necessário */
+}
+
+.loader-text {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ddd;
+}
