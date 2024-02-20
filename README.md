@@ -1,7 +1,10 @@
-# Tauri + React + Typescript
+# Phoenix URL
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+This is a desktop app with the purpose of shortening url.
 
-## Recommended IDE Setup
+### Features
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- [x] short url 
+- [] generate qr code
+
+![preview](./src/assets/app-preview.png)
